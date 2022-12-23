@@ -7,7 +7,8 @@ This script calculates the number of messages sent by each contact in a WhatsApp
 ```python
 Python 3.6 or higher
 
-```Usage
+```
+**Usage**
 Place the text files containing the WhatsApp chat exports in the chats folder.
 Run the script:
 Copy code
