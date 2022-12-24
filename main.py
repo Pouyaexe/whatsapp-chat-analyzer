@@ -1,4 +1,3 @@
-import os
 import glob
 import re
 
@@ -22,7 +21,7 @@ for filename in filenames:
 
     # Create a set to store the unique names of the contacts
     contacts = set()
-    contacts.add(messages[0][2])  # Add the first sender's name to the set
+    # contacts.add(messages[0][2])  # Add the first sender's name to the set
 
     # Iterate through the messages and add the sender's name to the set
     for date, time, sender, message in messages:
